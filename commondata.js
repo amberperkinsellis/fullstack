@@ -1,0 +1,1 @@
+BernieComments = new Mongo.Collection("Bernie_Comments");
