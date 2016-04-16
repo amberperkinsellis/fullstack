@@ -1,0 +1,25 @@
+<head>
+  <title>revolution_web</title>
+</head>
+
+<body>
+  <h1>Vote for Bernie!</h1>
+
+  {{> commonInput}}
+  {{> commonOutput}}
+</body>
+
+<template name="commonInput">
+
+  <p> How much do you love Bernie? {{hearts_sv}}</p>
+   <form class="comments">
+     <input type="text" name="text" placeholder="Express your love for the Burn!!" />
+      </form>
+  <button id='coolButton'>SUBMIT</button>
+</template>
+
+<template name= "commonOutput">
+  <p> Bernie wins Wyoming!</p>
+  <p>Bernie's from BROOKLYN</p>
+  <p> He's the least problematic of all the problematic candidates!</p>
+</template>
