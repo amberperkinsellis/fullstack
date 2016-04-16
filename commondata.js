@@ -1,0 +1,1 @@
+RiriComments = new Mongo.Collection("RiriComments");
